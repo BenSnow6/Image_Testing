@@ -16,7 +16,7 @@ TEST(Image, defaultCtor)
 
 TEST(Image,userCtor)
 {
-    Image i(100,100);m_pixels
+    Image i(100,100);
     EXPECT_EQ(i.width(),100);
     EXPECT_EQ(i.height(),100);
     EXPECT_EQ(i.channels(),3);
@@ -80,9 +80,28 @@ TEST(Image,copyCtor)
     EXPECT_EQ(b,0);
 }
 
+TEST(Image, DrawLine)
+{
+    Image i(100,100);
+    //need to check that the colour written on first point of line is red
+    unsigned char r,g,b;
+    i.Draw_Line(0,0,0,100);
+    i.getPixel(0,0,r,g,b);
+    EXPECT_EQ(r,255);
+    EXPECT_EQ(g,0);
+    EXPECT_EQ(b,0);
 
-
-
+    Image image2(100,100);
+    //check that all pixels along horizontal line are the colour written on first point of line is red
+    image2.Draw_Line(0,0,0,100);
+    for(int j = 0; j<100; ++j)
+    {
+        image2.getPixel(0,j,r,g,b);
+        EXPECT_EQ(r,255);
+        EXPECT_EQ(g,0);
+        EXPECT_EQ(b,0);
+    }
+}
 
 
 

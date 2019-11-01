@@ -21,6 +21,24 @@ Image::Image(const Image &_c)
     memcpy(m_pixels.get(),_c.m_pixels.get(),m_width*m_height*m_channels);
 }
 
+void Image::Draw_Line(unsigned int _x0, unsigned int _y0, unsigned int _x1, unsigned int _y1)
+{
+    int _dx = _x1 - _x0;
+    int _dy = _y1 - _y0;
+    int _D = 2*_dy - _dx;
+    int _y = _y0;
+
+     for(int x =_x0; x<_x1; ++x)
+     {
+        setPixel(x,_y,255,0,0);
+        if(_D > 0)
+        {
+          _y = _y + 1;
+          _D = _D - 2*_dx;
+        }
+       _D = _D + 2*_dy;
+     }
+}
 
 void Image::setPixel(unsigned int _x, unsigned int _y, unsigned char _r, unsigned char _g, unsigned _b)
 {
@@ -91,4 +109,43 @@ unsigned int Image::channels() const noexcept
 {
     return m_channels;
 }
+
+
+
+int main()
+{
+    constexpr size_t width=150;
+    constexpr size_t height=150;
+
+    std::cout<<"Image Sequence\n";
+    Image myImage(width,height);
+
+    for(size_t current=0; current<width; ++current)
+    {
+        myImage.clearColour(current,255,255);
+
+        myImage.Draw_Line(100,0,20,100);
+
+//        for(size_t x=0; x<=current; ++x)
+//        {
+//            myImage.setPixel(x,x,255,0,0);
+
+//        }
+
+
+
+
+        char fname[100];
+        sprintf(fname,"/home/s5222107/Desktop/ASE/ASELectureCode/Image_drawing/Image_Testing/ImageSequence/images/test.%04ld.png", current); //%04ld makes sure the file has 4 numbers in the filename e.g. 0056 for image 56
+        std::cout<<"Writing file"<<fname<<"\n";
+        myImage.write(fname);
+
+    }
+    return EXIT_SUCCESS;
+}
+
+
+
+
+
 

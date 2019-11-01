@@ -1,0 +1,1000 @@
+   10  cp -rf /transfer/ASE/ Desktop/
+   11  cd 
+   12  cd Desktop/ASE/ASELectureCode/
+   13  touch s.cpp
+   14  E s.cpp 
+   15  g++ s.cpp
+   16  ./a.out
+   17  cd Lecture2
+   18  E struct1.cpp
+   19  E enum1.cpp 
+   20  E enum2.cpp 
+   21  E enum3.cpp
+   22  E for.cpp
+   23  ls
+   24  E for.cpp
+   25  g++ for.cpp
+   26  ./a.out 
+   27  clang++ for.cpp
+   28  ./a.out 
+   29  clang14 for.cpp 
+   30  ./a.out 
+   31  E constexpr1.cpp
+   32  E
+   33  cd ..
+   34  ls
+   35  cd Lecture4
+   36  ls
+   37  cd ..
+   38  cd Lecture2
+   39  ls
+   40  E lambda1.cpp
+   41  clang++ lambda1.cpp 
+   42  g++ lambda1.cpp 
+   43  ./a.out 
+   44  cd
+   45  cd /public/
+   46  cd devel/2019
+   47  cd ..
+   48  cd 2018
+   49  cd sources/
+   50  ls
+   51  cd
+   52  cd Desktop/ASE/ASELectureCode/Lecture2
+   53  cd
+   54  cd NGL
+   55  cd Desktop/ASE/ASELectureCode/Lecture2
+   56  cd 
+   57  cd LabTests
+   58  ls
+   59  Des
+   60  Desktop/
+   61  cd Desktop/ASE/ASELectureCode/Lecture2
+   62  goMATLAB
+   63  goMatlab
+   64  ls
+   65  cd ..
+   66  cd Lecture2
+   67  E unit_test.cpp
+   68  g++ unit_test.cpp 
+   69  clang++ unit_test.cpp 
+   70  int main()
+   71  {     Test_StringToDouble();
+   72      return 0;
+   73  clang++ unit_test.cpp 
+   74  -v
+   75  v
+   76  clang++ unit_test.cpp 
+   77  cs Desktop/ASE/ASELectureCode/Lecture2/unit_test.cpp 
+   78  cs Desktop/ASE/ASELectureCode/Lecture2
+   79  cd Desktop/ASE/ASELectureCode/Lecture2
+   80  ls
+   81  E unit_test.cpp 
+   82  g++ unit_test.cpp 
+   83  E main_unit_test.cpp 
+   84  g++ main_unit_test.cpp 
+   85  ./a.
+   86  ./a.out
+   87  clang++ main_unit_test.cpp 
+   88  goHoudini
+   89  python
+   90  a
+   91  h
+   92  cd 
+   93  cd Desktop/
+   94  cd ASE/ASELectureCode/Lecture3
+   95  touch unit_test_example.cpp
+   96  E unit_test_example.cpp 
+   97  g++ unit_test_example.cpp 
+   98  cd
+   99  git clone http://github.com:/NCCA/NGL
+  100  cd NGL/
+  101  ls
+  102  qmake
+  103  make -j 12
+  104  ls lib/
+  105  make
+  106  ls lib/
+  107  ls
+  108  qtcreatorreator NGL.pro
+  109  qtcreator NGL.pro
+  110  cd NGL
+  111  ls
+  112  cd
+  113  cd NGL/
+  114  ls
+  115  cd NGL.pro
+  116  cd /NGL.pro
+  117  NGL.pro
+  118  cd NGL.pro
+  119  cd tests
+  120  ls
+  121  g++ Mat2Tests.cpp 
+  122  clang++ Mat2Tests.cpp 
+  123  cd
+  124  cd /PYngl
+  125  cd NGL/PyNGL/tests
+  126  ls
+  127  ./ObjTest.py 
+  128  E ~/.bashrc 
+  129  ./ObjTest.py 
+  130  E ~/.bashrc 
+  131  python
+  132  cd
+  133  pwd
+  134  cd Ng
+  135  cd NGL/
+  136  E NGL/NGL.pro
+  137  cd
+  138  mkdir NGLDemos
+  139  ls
+  140  cd NGLDemos/
+  141  rm rf*
+  142  rm -rf*
+  143  ls
+  144  pwd
+  145  ls
+  146  git clone http://github.com:NCCA/SimpleNGL
+  147  git clone http://github.com:/NCCA/SimpleNGL
+  148  qmake
+  149  make
+  150  la
+  151  ls
+  152  ./SimpleNGL/
+  153  ./SimpleNGL
+  154  cd SimpleNGL/
+  155  ls
+  156  ./SimpleNGl.pro
+  157  ls
+  158  ./SimpleNgl
+  159  ./SimpleNGL
+  160  cd..
+  161  cd ..
+  162  ls
+  163  ./SimpleNGL
+  164  cd SimpleNGL/
+  165  qmake ; make
+  166  ./SimpleNGL
+  167  qtcreator NGL.pro
+  168  qtcreator SimpleNGL.pro
+  169  ./SimpleNGL.py
+  170  python SimpleNGL.py
+  171  git clone http://github.com:/NCCA/ObjDemo
+  172  ls
+  173  cd ObjDemo/
+  174  qmake :make
+  175  qmake ; make
+  176  ls
+  177  ./ObjDemo.pro
+  178  E ObjDemo
+  179  cd ObjDemo
+  180  ./ObjDemo.pro
+  181  ./ObjDemo 
+  182  git clone http://github.com:/NCCA/BulletTower
+  183  ls
+  184  cd BulletTower/
+  185  qmake ; make
+  186  ./BulletTower 
+  187  $ ssh-keygen -t rsa -b 4096 -C "bsnow@bournemouth.ac.uk"
+  188  ls -al ~/.ssh
+  189  ls ~/.ssh
+  190  cd NGL
+  191  ls
+  192  cd PyNGL/
+  193  ls
+  194  cs tests
+  195  cd testts
+  196  cd tests
+  197  ls
+  198  E Vec4Test.py 
+  199  ./ Vec4Test.py 
+  200  ./Vec4Test.py 
+  201  cd
+  202  /public/devel/2019
+  203  cd /public/devel/2019
+  204  ls
+  205  cd
+  206  git config
+  207  git config --global user name
+  208  git config --global user name "BenSnow6"
+  209  git config --global user.name "BenSnow6"
+  210  git config --global user.email bsnow@bournemouth.ac.uk
+  211  ssh-keygen -t -rsa -b 4096 -C bsnow@bournemouth.ac.uk
+  212  ssh-keygen -t rsa -b 4096 -C bsnow@bournemouth.ac.uk
+  213  cd Desktop/
+  214  cd ASE/ASELectureCode/Lecture4
+  215  ls
+  216  cd Memory/
+  217  ls
+  218  cd ..
+  219  cd Lecture3
+  220  ls
+  221  E sizeof.cpp
+  222  E address.cpp
+  223  clang++ address.c
+  224  clang++ address.cpp
+  225  ./a.out 
+  226  clang++ address.cpp
+  227  ./a.out 
+  228  ls
+  229  touch hello.cpp
+  230  E hello.cpp 
+  231  clang++ address.cpp
+  232  vi address.cpp
+  233  E ptrToArray.cpp
+  234  clang11 ptrToArray.cpp
+  235  ./a.out 
+  236  E swap.cpp
+  237  E swap.
+  238  E swap.c
+  239  E swap.cpp
+  240  ls
+  241  E mem2.c
+  242  g++ mem2.c
+  243  clang++ mem2.c
+  244  clang11 mem2.c
+  245  clang mem2.cpp
+  246  ./a.c
+  247  ./a.out 
+  248  clang++ mem2.c
+  249  ./a.out 
+  250  goMaya
+  251  cd
+  252  cd Desktop/ASE/ASELectureCode/
+  253  ls
+  254  mkdir simple_cpp_practice
+  255  ls
+  256  cd 
+  257  cd Desktop/ASE/ASELectureCode/simple_cpp_practice/
+  258  touch hello_world.cpp
+  259  E hello_world.cpp 
+  260  clang++ hello_world.cpp 
+  261  ./a.out 
+  262  clang++ hello_world.cpp 
+  263  ./a.out
+  264  ls
+  265  touch vowel_remover.cpp
+  266  E vowel_remover.cpp 
+  267  clang++ vowel_remover.cpp 
+  268  ./a.out
+  269  u wot m8
+  270  clang++ vowel_remover.cpp 
+  271  ./a.out
+  272  clang++ vowel_remover.cpp 
+  273  ./a.out
+  274  clang++ vowel_remover.cpp 
+  275  ./a.out
+  276  clang++ vowel_remover.cpp 
+  277  clang17 vowel_remover.cpp 
+  278  clang11 vowel_remover.cpp 
+  279  ./a.out
+  280  clang11 vowel_remover.cpp 
+  281  ./a.out
+  282  clang11 vowel_remover.cpp 
+  283  ./a.out
+  284  clang11 vowel_remover.cpp 
+  285  ./a.out
+  286  clang11 vowel_remover.cpp 
+  287  ./a.out
+  288  clang11 vowel_remover.cpp 
+  289  ./a.out
+  290  source ~/bashrc
+  291  ~/bashrc
+  292  E ./bashrc
+  293  E .bashrc
+  294  cd
+  295  ls
+  296  goHoudini
+  297  cd
+  298  cd Desktop/ASE/ASELectureCode/Lecture4
+  299  ls
+  300  cd ..
+  301  ls
+  302  mkdir TDD_tests
+  303  cd TDD_tests/
+  304  git clone https://github.com/BenSnow6/ImageTests.git
+  305  ls
+  306  cd ImageTests/
+  307  ls
+  308  E README.md 
+  309  git commit -am "Modified readme"
+  310  git sttus
+  311  git status
+  312  git push origin master
+  313  $ ssh-keygen -t rsa -b 4096 -C "bsnow@bournemouth.ac.uk"
+  314  ssh-keygen -t rsa -b 4096 -C "bsnow@bournemouth.ac.uk"
+  315  cd ~/.ssh
+  316  ls
+  317  cat id_rsa.pub
+  318  cd
+  319  cd Desktop/
+  320  cd ASE/ASELectureCode/Lecture4
+  321  ls
+  322  cd ..
+  323  ls
+  324  ls
+  325  cd TDD_tests/
+  326  ls
+  327  cd ImageTests/
+  328  ls
+  329  ls image/
+  330  mv image/* ./
+  331  rmdir image
+  332  ls
+  333  qmake 
+  334  make
+  335  ./test
+  336  ls
+  337  git status
+  338  more.git ignore
+  339  more. gitignore
+  340  more git ignore
+  341  git add *.cpp *.h *.pro
+  342  git commit -am "added source files and qt project"
+  343  git push origin master
+  344  qtcreator
+  345  qtcreator imageTests.pro
+  346  bg
+  347  git commit -am "Working default ctor"
+  348  ./test #
+  349  ./test 
+  350  git commit -am "added user ctor and allocation of pixels"
+  351  git push origin master
+  352  git commit -am "broket set and get functions"
+  353  git push origin master
+  354  git commit -am "fixed set and get functions"
+  355  git push origin master
+  356  git status
+  357  qtcreator imageTests.pro
+  358  cd
+  359  cd Desktop/ASE/ASELectureCode/
+  360  ls
+  361  cs TDD_tests/
+  362  cd TDD_tests/
+  363  ls
+  364  cd ImageTests/
+  365  ls
+  366  qtcreator imageTests.pro
+  367  bg
+  368  ./test.cpp
+  369  ./test
+  370  eog test.png
+  371  bg
+  372  git commit -am "added in image clear and setpixel functions"
+  373  git push origin master
+  374  git status
+  375  $ pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  376  pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  377  pip install --upgrade pip
+  378  pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  379  cd Desktop/
+  380  mkdir mres
+  381  cd mres/
+  382  git clone https://bitbucket.org/mantaflow/manta.git
+  383  git checkout 15eaf4
+  384  sudo apt-get install cmake g++ git python3-dev qt5-qmake qt5-default 
+  385  mkdir manta/build
+  386  cd manta/build/
+  387  cmake .. -DGUI=ON -DOPENMP=ON
+  388  make -j4
+  389  ./manta ../scenes/simpleplume.py 
+  390  ls
+  391  cd manta 
+  392  ls
+  393  cd ..
+  394  ls
+  395  cd scenes/
+  396  ls
+  397  ./manta ../scenes/freesurface.py 
+  398  cd ..
+  399  ls
+  400  cd build/
+  401  ls
+  402  ./manta ../scenes/guiding_2d.py 
+  403  ./manta ../scenes/guiding_3d01_low.py 
+  404  ./manta ../scenes/freesurface.py 
+  405  ./manta ../scenes/surfaceTension.py 
+  406  ./manta ../scenes/flip06_obstacle.py 
+  407  code
+  408  code .
+  409  code . &
+  410  E bg
+  411  E ./manta ../scenes/flip06_obstacle.py 
+  412  ls
+  413  cd ..
+  414  ls
+  415  cd sc
+  416  cd scenes/
+  417  ls
+  418  E flip06_obstacle.py 
+  419  python
+  420  cd D
+  421  cd Desktop/
+  422  cd mres/manta/
+  423  ls
+  424  cd scenes/
+  425  ls
+  426  E flip06_obstacle.py 
+  427  E ./manta ../scenes/flip06_obstacle.py 
+  428  ./manta ../scenes/flip06_obstacle.py 
+  429  cd ..
+  430  ls
+  431  ./manta ../scenes/flip06_obstacle.py 
+  432  cd build/
+  433  ./manta ../scenes/flip06_obstacle.py 
+  434  pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  435  pip install --upgrade pip
+  436  history
+  437  pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  438  cd
+  439  cd Desktop/
+  440  mkdir tensorflow_GPU
+  441  cd tensorflow_GPU/
+  442  python install --user virtual-env
+  443  python instal --user virtual-env
+  444  python install virtualenv
+  445  pip install --user virtualenv
+  446  pip install virtualenv
+  447  virtualenv env
+  448  source env/bin/activate
+  449  ls
+  450  pip install --user tensorflow-gpu
+  451  pip3 install --user tensorflow-gpu
+  452  deactivate
+  453  python3 install virtualenv
+  454  python3 install --user virtualenv
+  455  python3 --version
+  456  python3 install virtualenv
+  457  pip3 install --user tensorflow-gpu
+  458  python3 virtualenv env
+  459  virtualenv env
+  460  python3 --version
+  461  source env/bin/activate
+  462  python3 pip install --user tensorflow-gpu
+  463  source ~/tensorflow/bin/activate
+  464  pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
+  465  ..\manta\build\Release\manta.exe .\scene\smoke_pos_size.py
+  466  deactivate
+  467  ls
+  468  cd ..
+  469  cd mres/
+  470  ls
+  471  cd manta/
+  472  ls
+  473  cd build/
+  474  ls
+  475  cd ..
+  476  ls
+  477  ./scenes
+  478  python main.py
+  479  ls
+  480  cd
+  481  cd Desktop/
+  482  ls
+  483  cd mres/
+  484  ls
+  485  mkdir deep_fluids
+  486  cd deep_fluids/
+  487  ls
+  488  git clone https://github.com/byungsook/deep-fluids
+  489  ls
+  490  cd deep-fluids/
+  491  ls
+  492  python main.py
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd
+  497  cd Desktop/tensorflow_GPU/
+  498  ls
+  499  env
+  500  cd env
+  501  ls
+  502  mv Desktop/mres/deep_fluids Desktop/tensorflow_GPU/env
+  503  cd
+  504  cd Desktop/mres/deep_fluids
+  505  cd ..
+  506  mv deep_fluids/ Desktop/tensorflow_GPU/env
+  507  man mv
+  508  ls
+  509  mv deep_fluids/ ~
+  510  ls
+  511  cd
+  512  ;ls
+  513  ls
+  514  mv deep_fluids/ Desktop/
+  515  mv deep_fluids/ Desktop/tensorflow_GPU/env
+  516  mv Desktop/deep_fluids/ Desktop/tensorflow_GPU/env
+  517  cd
+  518  cd Desktop/
+  519  cd mres/
+  520  cd manta/
+  521  cd ..
+  522  ls
+  523  cd ..
+  524  cd 
+  525  cd Desktop/
+  526  cd tensorflow_GPU/
+  527  ls
+  528  cd env/
+  529  ls
+  530  cd deep_fluids/
+  531  ls
+  532  cd deep-fluids/
+  533  ls
+  534  cd ..
+  535  ls
+  536  source env/bin/activate
+  537  cd ..
+  538  source env/bin/activate
+  539  python main.py
+  540  ls
+  541  cd env/
+  542  ls
+  543  cd deep-fluids/
+  544  ls
+  545  python main.py 
+  546  apt install nvidia-cuda-toolkit
+  547  pip install --user libcudart
+  548  pip install libcudart
+  549  pip install libcudart.so
+  550  pip install cudart
+  551  pip3 install tensorflow --ignore-installed
+  552  E main.py
+  553  python main.py 
+  554  xdg-open .
+  555  python
+  556  locate libcuda.so
+  557  locate libcudart.so
+  558  virtualenv env
+  559  pip install --user tensorflow-gpu==1.2
+  560  pip install --user tensorflow-gpu==1.12
+  561  pip --upgrade
+  562  pip -upgrade
+  563  pip install --user --upgrade
+  564  pip install --user --upgrade pip
+  565  pip install --user tensorflow-gpu==1.12
+  566  pip install --upgrade tensorflow-gpu tqdm matplotlib Pillow imageio
+  567  pwd
+  568  ls
+  569  python3
+  570  python --version
+  571  python install virtualenv
+  572  python pip install virtualenv
+  573  pip
+  574  python install pip
+  575  apt install python-pip
+  576  dnf install python-pip
+  577  cd
+  578  ls
+  579  cd Public/
+  580  ls
+  581  cd bin
+  582  cd bin/
+  583  cd ..
+  584  cd
+  585  locate tcl
+  586  python27 -m benv myproject1
+  587  python -m benv 
+  588  source benv/bin/activate
+  589  main.py
+  590  cd
+  591  cd
+  592  cd Desktop/
+  593  cd tensorflow_GPU/
+  594  LS
+  595  ls
+  596  virtualenv env
+  597  source env/bin/activate
+  598  pip install tensorflow-gpu==1.12
+  599  python main.py
+  600  ls
+  601  cd deep-fluids/
+  602  python main.py
+  603  pip install imageio
+  604  python main.py
+  605  python -m pip install -U matlibplot
+  606  pip install matlibplot
+  607  python -m pip install -U pip
+  608  python -m pip install -U matlibplot
+  609  ls
+  610  python -m pip install -U matplotlib
+  611  python main.py
+  612  python -m pip install -U Tkinter
+  613  apt-get install python-tk
+  614  apt-get install python2.7-tk
+  615  pip install tk
+  616  python main.py
+  617  python
+  618  goQube
+  619  set "TCL_LIBRARY=C:\Python27\tcl\tcl18.5"
+  620  python main.py
+  621  import tkinter
+  622  python main.py
+  623  import tkinter as Tkinter
+  624  python main.py
+  625  python -m Tkinter
+  626  pip install python
+  627  python -m Tkinter
+  628  python -m tkinter
+  629  sudo apt-get install python-tk
+  630  pip install python-tk
+  631  ls
+  632  apt-get install python-tk
+  633  dnf install python-tk
+  634  yum install python-tk
+  635  yum install --user python-tk
+  636  mkdir -p ~/rpm
+  637  yumdownloader --destdir ~/rpm --resolve vim-common
+  638  yumdownloader --destdir ~/rpm --python-tk vim-common
+  639  yum search 
+  640  yum search tk
+  641  yum search python
+  642  yum search python-tk
+  643  ls
+  644  cd tkinter 
+  645  E tkinter 
+  646  deactivate
+  647  scl enable rh-python27 bash
+  648  scl enable rh-python bash
+  649  cd etc/scl/cong
+  650  cd etc/scl/conf
+  651  cd
+  652  cd etc
+  653  ls
+  654  cd Desktop/tensorflow_GPU/
+  655  ls
+  656  scl enable python27 bash
+  657  virtualenv benv
+  658  scl enable python27 bash
+  659  cd Desktop/ASE/ASELectureCode/
+  660  ls
+  661  cd Lecture3
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd ..
+  666  ls
+  667  cd ASELectureCode/
+  668  ls
+  669  cd TDD_tests/
+  670  ls
+  671  cd I
+  672  cd ImageTests/
+  673  ls
+  674  cd ..
+  675  ls
+  676  cd TDD_tests/
+  677  ls
+  678  cd ImageTests/
+  679  ls
+  680  qtcreator imageTests.
+  681  qtcreator imageTests.pro
+  682  ls
+  683  cd ..
+  684  ls
+  685  cd simple_cpp_practice/
+  686  E
+  687  mkdir integer_assignment
+  688  cd integer_assignment/
+  689  touch overflow.cpp
+  690  E overflow.cpp 
+  691  clang++ overflow.cpp 
+  692  E overflow.cpp 
+  693  clang++ overflow.cpp 
+  694  touch variable_types_demo.cpp
+  695  E variable_types_demo.cpp 
+  696  clang++ variable_types_demo.cpp 
+  697  ./a.out 
+  698  cd..
+  699  ls
+  700  cd ..
+  701  ls
+  702  touch for_loop.cpp
+  703  E for_loop.cpp 
+  704  clang++ for_loop.cpp 
+  705  ./a.out
+  706  touch while.cpp
+  707  E while.cpp 
+  708  clang++ while.cpp 
+  709  ./a.out 
+  710  clang++ while.cpp 
+  711  ./a.out 
+  712  touch incriments.cpp
+  713  E incriments.cpp 
+  714  clang++ incriments.cpp 
+  715  ./a.out 
+  716  cd
+  717  goHoudini
+  718  cd Desktop/
+  719  cd ASE/ASELectureCode/
+  720  ls
+  721  mkdir Classes
+  722  cd Classes/
+  723  touch classes.cpp
+  724  E classes.cpp 
+  725  cd public/devel
+  726  cd /public/devel
+  727  ls
+  728  cd 2019
+  729  ls
+  730  cd UnrealInstall/
+  731  ls
+  732  ./installUnreal.sh 
+  733  ./UE4
+  734  ls
+  735  cd
+  736  cd Desktop/ASE/
+  737  ls
+  738  git clone git@github.com:NCCA/ase-2019-20-BenSnow6.git
+  739  ls
+  740  cd ase-2019-20-BenSnow6/
+  741  git status
+  742  pwd
+  743  touch README.md
+  744  E README.md 
+  745  git satus
+  746  yes
+  747  git status
+  748  git add README.md 
+  749  git commit -am "added README"
+  750  git push origin master
+  751  ls
+  752  d Images/
+  753  cd Images/
+  754  ls
+  755  git add Images/
+  756  cd //
+  757  cd
+  758  cd Desktop/ASE/
+  759  ls
+  760  cd ase-2019-20-BenSnow6/
+  761  ls
+  762  git add Images/
+  763  git commit -am "added an images folder"
+  764  git push origin master
+  765  ls
+  766  git branch markdownlesson
+  767  git checkout markdownelsson
+  768  git checkout markdownelesson
+  769  git checkout markdownlesson
+  770  git status
+  771  git push origin markdownlesson
+  772  git commit -am "added tables"
+  773  git push origin markdownlesson
+  774  git checkout master
+  775  git status
+  776  ls
+  777  git rm Images/sqrt_minus_1.png 
+  778  git commit -am "made ready for assignment"
+  779  git push origin master
+  780  cd Desktop/ASE/ASELectureCode/Classes/
+  781  E classes.cpp 
+  782  clang++ -std=c++14 class.cpp -o class
+  783  clang++ -std=c++14 classes.cpp -o class
+  784  ./classes
+  785  ./classes.cpp
+  786  ./a.o
+  787  ./a.out
+  788  ./classes
+  789  clang++ -std=c++14 classes.cpp -o class
+  790  ./class
+  791  clang++ -std=c++14 classes.cpp -o class
+  792  ./class
+  793  clang++ -std=c++14 classes.cpp -o class
+  794  ./class
+  795  cd Desktop/ASE/ASELectureCode/Lecture4
+  796  ls
+  797  cd Memory/
+  798  ls
+  799  qtcreator Mem.pro 
+  800  cd Desktop/
+  801  cd ASE/ASELectureCode/TDD_tests/
+  802  ls
+  803  cd I
+  804  cd ImageTests/
+  805  ls
+  806  qtcreator imageTests.pro
+  807  bg
+  808  mem memcopy
+  809  git commit -am "commit before refractor of project"
+  810  mkdir src include obj tests
+  811  ls
+  812  mv image.cpp src/
+  813  mv image.h include/
+  814  mc imageTests.cpp ./tests
+  815  mv imageTests.cpp ./tests
+  816  mv imageTests.pro ./tests
+  817  ls
+  818  ls include/
+  819  ls source
+  820  ls src
+  821  ls tests/
+  822  mv imageTests.pro.user ./tests
+  823  ls tests/
+  824  mv imageTests.o ./tests
+  825  ls
+  826  rm test.png
+  827  ls
+  828  git add .
+  829  git status
+  830  git add src/ include/ tests/
+  831  git status
+  832  history
+  833  ls
+  834  rm Makefile 
+  835  rm image.o 
+  836  rm test.png
+  837  ls
+  838  rm image.o 
+  839  ls
+  840  rm Makefile 
+  841  rm test.png 
+  842  ls
+  843  mv test ./tests/
+  844  ls
+  845  git add .
+  846  git commit -am "re-ordered filestructure"
+  847  git commit origin master
+  848  ls
+  849  cd src
+  850  ls
+  851  cd tests
+  852  cd ..
+  853  cd tests/
+  854  ls
+  855  qtcreator
+  856  qtcreator imageTests.pro
+  857  bg
+  858  ls
+  859  cd ..
+  860  ls
+  861  cd include/
+  862  ls
+  863  pwd
+  864  cd ..
+  865  ls
+  866  la
+  867  ls -a
+  868  code .git
+  869  ls -a
+  870  cd ImageTes
+  871  cd ImageTest
+  872  cd ImageTests
+  873  ls -a
+  874  cd Desktop/
+  875  ls
+  876  cd ASE/ASELectureCode/
+  877  ls
+  878  cd TDD_tests/
+  879  ls
+  880  cd ImageTests/
+  881  ls
+  882  touch ImageLib.pro
+  883  qtcreator ImageLib.pro 
+  884  bg
+  885  ls
+  886  cd src
+  887  ls
+  888  cd ..
+  889  ls
+  890  cd ..
+  891  ls
+  892  ls build-ImageLib-Desktop_Qt_5_12_3_GCC_64bit-Debug/
+  893  mkdir ImageSequence
+  894  ls
+  895  mkdir src include obj images
+  896  touch ImageSequence.pro
+  897  touch src/main.cpp
+  898  qtcreator ImageSequence.pro
+  899  bg
+  900  cd ..
+  901  ls
+  902  cd TDD_tests/
+  903  ls
+  904  cd Desktop/
+  905  cd As
+  906  cd ASE/
+  907  ls
+  908  cd ASELectureCode/
+  909  cd TDD
+  910  ls
+  911  cd TDD_tests/
+  912  ls
+  913  git status
+  914  cd ImageTests/
+  915  ls
+  916  cd ..
+  917  ls
+  918  git commit -am "added image sequence and image library"
+  919  git commit origin master
+  920  git push origin master
+  921  ls
+  922  cd ..
+  923  ls
+  924  cd Image_drawing/
+  925  git clone git@github.com:BenSnow6/Image_Testing.git
+  926  ls
+  927  git init
+  928  git remote add origin
+  929  git remote add origin git@github.com:BenSnow6/Image_Testing.git
+  930  touch a.cpp
+  931  git add a.cpp
+  932  git push origin master
+  933  git commit -am "works?"
+  934  git push origin master
+  935  ls
+  936  git remove
+  937  rm -rf
+  938  rm -rf .git/
+  939  ls
+  940  ls -a
+  941  cd Image_Testing/
+  942  ls
+  943  git init
+  944  git remote add origin git@github.com:BenSnow6/Image_Testing.git
+  945  git commit -am "works?"
+  946  touch a.cpp
+  947  git commit -am "works?"
+  948  git add a.cpp
+  949  git commit -am "works?"
+  950  git commit origin master
+  951  git push origin master
+  952  rm a.cpp
+  953  history
+  954  ls
+  955  cd ImageSequence/
+  956  ls
+  957  qtcreator ImageSequence.pro
+  958  ls
+  959  code . 
+  960  ls
+  961  cd ..
+  962  ls
+  963  cd ImageSequence/
+  964  ls
+  965  qtcreator ImageSequence.pro
+  966  bg
+  967  cd TDD_tests
+  968  animate *
+  969  ls
+  970  cd ..
+  971  ls
+  972  cd ..
+  973  ls
+  974  cd Image_Testing/ImageSequence/obj/
+  975  ls
+  976  cd ..
+  977  cd src/
+  978  ls
+  979  cd ..
+  980  ls
+  981  cd images/
+  982  ls
+  983  cd
+  984  cd Desktop/ASE/ASELectureCode/Image_drawing/
+  985  ls
+  986  cd Image_Testing/
+  987  ls
+  988  cd ImageSequence/
+  989  ls
+  990  cd images/
+  991  ls
+  992  cd images/
+  993  cd ..
+  994  ls
+  995  qtcreator ImageSequence.pro
+  996  bg
+  997  ls
+  998  cd ima
+  999  cd images/
+ 1000  pwd
+ 1001  ls
+ 1002  cd ..
+ 1003  ls
+ 1004  cd ..
+ 1005  ls
+ 1006  cd ImageTests/
+ 1007  ls
+ 1008  history
+ 1009  history >history_for_print.txt
